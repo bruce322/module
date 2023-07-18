@@ -1,0 +1,9 @@
+#!name=bruce: force bilibili http engine
+#!desc=添加bilibili到force-http-engine
+#!author=bruce
+
+[General]
+# :8080，表示解析所有8080端口，0表示解析所有端口
+# 通配符域名，解析所有端口下的相关域名
+force-http-engine-hosts = *.bilibili.com,*.biliapi.net
+
