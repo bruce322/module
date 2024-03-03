@@ -5,10 +5,12 @@ icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Filte
 script:
   shortcuts:
     quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
-    bilibiliUdp: network == "udp" and ('bilibili' in host or 'biliapi' in host)
-    youtubeUdp: network == 'udp' and ('googlevideo' in host or 'youtube' in host)
-    
+    bilibili-udp: network == "udp" and ('bilibili' in host or 'biliapi' in host)
+    youtube-udp: network == 'udp' and ('googlevideo' in host or 'youtube' in host)
+    bilibili-shit: ('pcdn' in host and 'biliapi' in host) or ('p2p' in host and 'bilibili' in host)
+
 rules:
   - SCRIPT,quic,REJECT,no-track
-  - SCRIPT,bilibiliUdp,REJECT,no-resovle
-  - SCRIPT,youtubeUdp,REJECT,no-resovle
+  - SCRIPT,bilibili-shit,REJECT,no-track
+  - SCRIPT,bilibili-udp,REJECT,no-resovle
+  - SCRIPT,youtube-udp,REJECT,no-resovle
