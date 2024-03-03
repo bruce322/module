@@ -1,0 +1,10 @@
+name: Block Quic
+desc: >-
+  拦截Quic
+
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
+
+rules:
+  - SCRIPT,quic,REJECT,no-track
