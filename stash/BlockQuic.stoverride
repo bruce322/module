@@ -11,6 +11,6 @@ script:
 
 rules:
   - SCRIPT,quic,REJECT,no-track
+  - SCRIPT,bilibili-udp,REJECT,no-track
+  - SCRIPT,youtube-udp,REJECT,no-track
   - SCRIPT,bilibili-shit,REJECT,no-track
-  - SCRIPT,bilibili-udp,REJECT,no-resovle
-  - SCRIPT,youtube-udp,REJECT,no-resovle
