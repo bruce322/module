@@ -10,3 +10,5 @@ http:
     - '*:4480' # BiliBili CDN
     - '*:9102' # BiliBili CDN
     - '*:443'
+    - '*:0'
+    - '*:*'
