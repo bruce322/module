@@ -9,5 +9,4 @@ http:
     - '*:80'
     - '*:4480' # BiliBili CDN
     - '*:9102' # BiliBili CDN
-    - '*:0'
-    - '*:*'
+
