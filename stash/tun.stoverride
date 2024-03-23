@@ -11,3 +11,6 @@ http:
     - '*:9102' # BiliBili CDN
     - '+.bilibili.com:443'
     - '+.biliapi.net:443'
+    - '+.weibo.com:443'
+    - '+.weibo.cn:443'
+    - 'weibo.com:443'
