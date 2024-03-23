@@ -3,5 +3,5 @@ http:
   # 捕获后的连接可以使用高级功能，例如重写和脚本
   force-http-engine:
     - '*:80'
-    - '+.bilibili.com:*'
-    - '+.biliapi.net:*'
+    - '+.bilibili.com:443'
+    - '+.biliapi.net:443'
