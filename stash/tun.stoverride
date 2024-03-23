@@ -1,4 +1,4 @@
-name: TUN模式MITM强制HTTP
+name: TUN模式
 desc: TUN模式MITM强制HTTP
 
 http:
