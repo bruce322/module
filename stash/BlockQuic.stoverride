@@ -1,6 +1,7 @@
 name: 屏蔽QUIC
 desc: 拦截针对YouTube的UDP请求，兼容YouTube去广告覆写; 拦截针对bilibili的UDP请求，防止哔哩哔哩等产生大量连接占用资源
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Filter.png"
+category: "udp block"
 
 script:
   shortcuts:
