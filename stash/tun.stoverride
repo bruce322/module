@@ -1,7 +1,7 @@
 name: FORCE HTTP
 desc: TUN模式MITM强制HTTP
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png"
-category: "🐬BRUCE"
+category: "🐬 BRUCE"
 
 http:
   # 强制使用 Stash Engine 以 HTTP 协议处理 TCP 连接
