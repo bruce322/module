@@ -1,4 +1,4 @@
-name: FORCE HTTP Engine
+name: FORCE HTTP
 desc: TUN模式MITM强制HTTP
 icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png"
 category: "TUN"
